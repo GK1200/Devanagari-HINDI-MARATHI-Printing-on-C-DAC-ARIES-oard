@@ -32,7 +32,7 @@ A lightweight Devanagari script rendering engine optimized for low-memory microc
 
 | Component | Specification | Quantity |
 |-----------|--------------|----------|
-| **ARIES V3.0 Board** | RISC-V RV32IMAC @ 50MHz, C-DAC | 1 |
+| **ARIES V3.0 Board** | RISC-V RV32IMAC @ 100MHz, C-DAC | 1 |
 | **ST7789 TFT Display** | 240x320 pixels, SPI Interface | 1 |
 | **Jumper Wires** | Male-to-Female | 8 |
 | **Breadboard** | (Optional) | 1 |
@@ -40,12 +40,14 @@ A lightweight Devanagari script rendering engine optimized for low-memory microc
 
 ### About ARIES V3.0
 
-The ARIES (Accelerated RISC-V Indigenous Ecosystem Solutions) V2.0 is an indigenous RISC-V development board designed by C-DAC, India. It features:
-- 32-bit RISC-V core (RV32IMAC)
-- 50 MHz clock frequency
-- 128 KB Flash, 64 KB SRAM
-- Arduino-compatible headers
-- Native SPI, I2C, UART interfaces
+The ARIES (Accelerated RISC-V Indigenous Ecosystem Solutions) V3.0 is an indigenous RISC-V development board designed by C-DAC, India. It features:
+Core Specifications
+Processor: VEGA ET1031 (32-bit Single-core RISC-V ISA compliant).
+RAM: 256 KB internal SRAM.
+Flash: 2 MB external SPI Flash (the SoC has no internal flash memory).
+Clock Speed: 100 MHz.
+Input Voltage: 7–12V (via DC jack or header) or 5V (via USB-C).
+Operating/IO Voltage: 3.3 V. 
 
 ## 💻 Software Requirements
 
