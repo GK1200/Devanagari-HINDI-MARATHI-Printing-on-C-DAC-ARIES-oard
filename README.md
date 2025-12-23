@@ -1,4 +1,4 @@
-# Devanagari-HINDI-MARATHI-Printing-on-C-DAC-ARIES-oard
+# Devanagari-HINDI-MARATHI-Printing-on-C-DAC-ARIES-Board
 GitHub repository structure for your Devanagari display project on the ARIES C-CDAC Board
 # Devanagari Text Display on ARIES V3.0 RISC-V Board
 
